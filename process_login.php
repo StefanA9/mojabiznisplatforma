@@ -1,5 +1,5 @@
 ﻿<?php
-
+session_start();
 include 'includes/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
