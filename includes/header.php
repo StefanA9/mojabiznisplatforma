@@ -46,6 +46,10 @@ if (session_status() == PHP_SESSION_NONE) {
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="onama.php">O nama</a>
+<li class="nav-item position-relative">
+    <input type="text" id="searchInput" class="form-control" placeholder="Pretraži kurseve..." style="width: 200px; margin-left: 10px;">
+    <div id="searchResults" class="search-results"></div>
+</li>
                 </li>
             </ul>
             <ul class="navbar-nav">
